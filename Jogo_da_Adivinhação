@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    printf("**********************\n");
+    printf("**Jogo da Advinhação**\n");
+    printf("**********************\n");
+    
+    int numerosecreto = 42;
+    printf("%d é o número secreto. Não conte para nínguem \n", numerosecreto);
+}
